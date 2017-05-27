@@ -1,0 +1,285 @@
+<!doctype html>
+<html class="no-js" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>FC Dashboard</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="styles/vendor.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="wrapper">
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills float-right">
+          <li>
+            <a class="nav-link active" href="#"><img src="images/icons/daily-summ-2.png" alt=""></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="images/icons/daily-summ.png" alt=""></a>
+          </li>
+
+        </ul>
+        <h2>مرحبا بكم صاحب السمو الملكي</h2>
+        <h4 class="text-muted">هنا تجد الملخص اليومي لمعاملات اللجنة المالية</h4>
+      </div>
+    </div>
+
+    <div class="transactions">
+
+            <div class="trans-info">
+            <div class="trans-box">
+              <div class="row">
+                <div class="col-sm-2"><div class="trans-num"><div class="number">8</div> معاملات</div></div>
+                <div class="col-sm-8"><div class="trans-text">توجد (8) معاملات حتى الآن تحت العرض لدى المقام الكريم</div></div>
+                <div class="col-sm-2"><div class="trans-img">
+                  <img src="images/gs.png" alt="">
+                </div></div>
+              </div>
+            </div>
+          </div>
+          <div class="trans-danger">
+            <div class="trans-box">
+              <div class="row">
+                <div class="col-sm-2"><div class="trans-num"><div class="number">19</div> معاملة</div></div>
+                <div class="col-sm-8"><div class="trans-text">بانتظار توقيع أصحاب المعالي أعضاء اللجنة</div></div>
+                <div class="col-sm-2"><div class="trans-img">
+                  <img src="images/members.png" alt="">
+                </div></div>
+              </div>
+            </div>
+          </div>
+          <div class="trans-info">
+              <div class="trans-box">
+                <div class="row">
+                  <div class="col-sm-2"><div class="trans-num"><div class="number">8</div> معاملات</div></div>
+                  <div class="col-sm-8"><div class="trans-text">توجد (8) معاملات حتى الآن تحت العرض لدى المقام الكريم</div></div>
+                  <div class="col-sm-2"><div class="trans-img">
+                    <img src="images/mbs.png" alt="">
+                  </div></div>
+                </div>
+              </div>
+            </div>
+          <div class="trans-warning">
+              <div class="trans-box">
+                <div class="row">
+                  <div class="col-sm-2"><div class="trans-num"><div class="number">8</div> معاملات</div></div>
+                  <div class="col-sm-8"><div class="trans-text">توجد (8) معاملات حتى الآن تحت العرض لدى المقام الكريم</div></div>
+                  <div class="col-sm-2"><div class="trans-img">
+                    <img src="images/ksa.png" alt="">
+                  </div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trans-arrows">
+            <a href="#" class="prev"></a>
+            <a href="#" class="next"></a>
+          </div>
+      <div class="container big-footer">
+
+
+
+        <div class="content">
+
+          <div class="trans-details">
+
+            <div>
+
+              <div class="row time-head">
+                <div class="col-6"><img src="images/icons/briefcase.png" alt=""> المعاملات حسب الأولوية</div>
+                <div class="col-3 text-center"><img src="images/icons/wait.png" alt=""> بالانتظار (متوسط)</div>
+                <div class="col-3 text-center"> <img src="images/icons/late.png" alt=""> المعاملات المتأخرة (متوسط)</div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <div><span class="bar very-important" style="width:75%">4</span> عاجل جداً</div>
+                  <div><span class="bar important" style="width:50%">3</span> عاجل</div>
+                  <div><span class="bar normal" style="width:50%">1</span> عادي</div>
+                </div>
+                <div class="col-3">
+                  <div class="text-center">
+                    <div class="text-success number">11</div>
+                    <h4>يوم</h4>
+                  </div>
+                </div>
+                <div class="col-3 text-center">
+                  <canvas class="gauge" style="width:100%;height:70px" data-max="3000" data-value="1000">
+              </canvas>
+               <h6 class="gauge-text text-center text-muted">في الموعد المحدد</h6>
+                </div>
+              </div>
+
+            </div>
+            <div>
+              <ul class="trans-by-member">
+               <li class="member">
+                 <div class="number">2</div>
+                 <div class="bar">
+                   <div class="very-important" style="height:88px">4</div>
+                   <div class="important" style="height:35px">2</div>
+                   <div class="normal" style="height:45px">2</div>
+                 </div>
+                 <div class="img"><img src="images/member-1.png" alt=""></div>
+                 <div class="delay"></div>
+               </li>
+               <li class="member delayed">
+                 <div class="number">2</div>
+                 <div class="bar">
+                   <div class="very-important">4</div>
+                   <div class="important">2</div>
+                   <div class="normal">2</div>
+                 </div>
+                 <div class="img"><img src="images/member-1.png" alt=""></div>
+                 <div class="delay"></div>
+               </li>
+               <li class="member">
+                 <div class="number">2</div>
+                 <div class="bar">
+                   <div class="very-important">4</div>
+                   <div class="important">2</div>
+                   <div class="normal">2</div>
+                 </div>
+                 <div class="img"><img src="images/member-1.png" alt=""></div>
+                 <div class="delay"></div>
+               </li>
+               <li class="member">
+                 <div class="number">2</div>
+                 <div class="bar">
+                   <div class="very-important">4</div>
+                   <div class="important">2</div>
+                   <div class="normal">2</div>
+                 </div>
+                 <div class="img"><img src="images/member-1.png" alt=""></div>
+                 <div class="delay"></div>
+               </li>
+               <li class="member delayed">
+                  <div class="number">5</div>
+                 <div class="bar">
+                   <div class="very-important" style="height:88px">4</div>
+                   <div class="important" style="height:35px">2</div>
+                   <div class="normal" style="height:45px">2</div>
+                 </div>
+                 <div class="img"><img src="images/member-1.png" alt=""></div>
+                 <div class="delay"></div>
+               </li>
+               <li class="member">
+                 <div class="number">2</div>
+                 <div class="bar">
+                   <div class="very-important">4</div>
+                   <div class="important">2</div>
+                   <div class="normal">2</div>
+                 </div>
+                 <div class="img"><img src="images/member-1.png" alt=""></div>
+                 <div class="delay"></div>
+               </li>
+               <li class="member">
+                 <div class="number">2</div>
+                 <div class="bar">
+                   <div class="very-important">4</div>
+                   <div class="important">2</div>
+                   <div class="normal">2</div>
+                 </div>
+                 <div class="img"><img src="images/member-1.png" alt=""></div>
+                 <div class="delay"></div>
+               </li>
+              </ul>
+            </div>
+            <div>
+              <div class="row time-head">
+                <div class="col-6"><img src="images/icons/briefcase.png" alt=""> المعاملات حسب الأولوية</div>
+                <div class="col-3 text-center"><img src="images/icons/wait.png" alt=""> بالانتظار (متوسط)</div>
+                <div class="col-3 text-center"> <img src="images/icons/late.png" alt=""> المعاملات المتأخرة (متوسط)</div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <div><span class="bar very-important" style="width:75%">4</span> عاجل جداً</div>
+                  <div><span class="bar important" style="width:50%">3</span> عاجل</div>
+                  <div><span class="bar normal" style="width:25%">1</span> عادي</div>
+                </div>
+                <div class="col-3">
+                  <div class="text-center">
+                    <div class="text-success number">11</div>
+                    <h4>يوم</h4>
+                  </div>
+                </div>
+                <div class="col-3 text-center">
+                  <canvas class="gauge" style="width:100%;height:70px" data-max="3000" data-value="1000">
+              </canvas>
+               <h6 class="gauge-text text-center text-muted">في الموعد المحدد</h6>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="row time-head">
+                <div class="col-6"><img src="images/icons/briefcase.png" alt=""> المعاملات حسب الأولوية</div>
+                <div class="col-3 text-center"><img src="images/icons/wait.png" alt=""> بالانتظار (متوسط)</div>
+                <div class="col-3 text-center"> <img src="images/icons/late.png" alt=""> المعاملات المتأخرة (متوسط)</div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <div><span class="bar very-important" style="width:75%">4</span> عاجل جداً</div>
+                  <div><span class="bar important" style="width:50%">3</span> عاجل</div>
+                  <div><span class="bar normal" style="width:25%">1</span> عادي</div>
+                </div>
+                <div class="col-3">
+                  <div class="text-center">
+                    <div class="text-success number">11</div>
+                    <h4>يوم</h4>
+                  </div>
+                </div>
+                <div class="col-3 text-center">
+                  <canvas class="gauge" style="width:100%;height:70px" data-max="3000" data-value="1000">
+              </canvas>
+               <h6 class="gauge-text text-center text-muted">في الموعد المحدد</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- inject:partials/footer.html -->
+      <footer class="footer container-fluid">
+    <div class="row">
+        <div class="col-2"><a href="#" class="logo"></a></div>
+        <div class="col-2"><a href="#" class="index active"></a></div>
+        <div class="col-2"><a href="#" class="brief"></a></div>
+        <div class="col-2"><a href="#" class="group"></a></div>
+        <div class="col-2"><a href="#" class="calendar"></a></div>
+        <div class="col-2"><a href="#" class="profile" style="background: url(images/profile.png) no-repeat center"></a></div>
+    </div>
+</footer>
+
+<style>
+    .footer{
+        background: #c1aa66;
+        background: -moz-linear-gradient(left, #c1aa66 0%, #008574 33%, #004c45 100%);
+        background: -webkit-linear-gradient(left, #c1aa66 0%,#008574 33%,#004c45 100%);
+        background: linear-gradient(to right, #c1aa66 0%,#008574 33%,#004c45 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1aa66', endColorstr='#004c45',GradientType=1 );
+    }
+</style>
+      <!-- endinject -->
+
+
+      </div>
+
+      <script src="scripts/vendor.js"></script>
+
+      <script src="scripts/plugins.js"></script>
+      <script src="scripts/chartist.min.js"></script>
+
+      <script src="scripts/main.js"></script>
+
+    </body>
+  </html>

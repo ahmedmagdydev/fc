@@ -3676,9 +3676,7 @@ tbody.collapse.show {
     cursor: not-allowed
 }
 
-.nav-tabs {
-    /* border-bottom: 1px solid #ddd */
-}
+
 
 .nav-tabs .nav-item {
     margin-bottom: -1px
@@ -9686,6 +9684,22 @@ body,html {
     display: inline-block
 }
 @media screen and (max-width: 800px) {
+    .nav-tabs {
+   overflow-x: scroll;
+}
+        .members-nav.state{
+    margin-top: 0 !important;
+
+}
+    .jumbotron.big-chart .process-info{
+        position: relative;
+    }
+    .row, .container.big-footer{
+        clear: both;
+    }
+    .jumbotron.big-chart{
+        padding-bottom: 50px;
+    }
     .trans-by-member .member{
             width: 13.557143%;
     width: calc(100% / 8);
@@ -10702,10 +10716,12 @@ margin-top: 35px;
     .jumbotron{
         height: 100%;
     }
+
 }
 
-.members-nav.state {
-    margin-top: 50px;
+.members-nav.state .slick-list {
+    padding-top: 50px;
+
 }
 
 .members-nav.state .number{
@@ -10893,6 +10909,13 @@ footer .col-2{
     padding: 0;
 }
 @media screen and (max-width:400px) {
+
+    .process-info{
+        position: relative;
+    }
+    .row{
+        clear: both;
+    }
     .footer a{
         zoom: .8;
     }
@@ -10954,4 +10977,7 @@ footer .col-2{
     max-width: 130px;
     max-width: calc(100% - 132px)
 }
+}
+.members-nav.state{
+    margin-top: 50px;
 }

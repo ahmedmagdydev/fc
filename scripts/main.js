@@ -437,6 +437,50 @@ $('body').on('click', '.event-details', function(event) {
   $('.all-events').slideDown('fast')
 });
 
+
+
+       $('.members-nav').slick({
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        arrows: true,
+         rtl: true,
+        dots:false,
+        mobileFirst:true,
+        centerMode: false,
+        infinite: false,
+        speed: 300,
+        responsive: [
+           {
+             breakpoint: 750,
+             settings: "unslick"
+           },
+
+           {
+             breakpoint: 600,
+             settings: {
+               slidesToShow: 3,
+               slidesToScroll: 3
+             }
+           },
+           {
+             breakpoint: 480,
+             settings: {
+               slidesToShow: 2,
+               slidesToScroll: 2
+             }
+           }
+           // You can unslick at a given breakpoint now by adding:
+           // settings: "unslick"
+           // instead of a settings object
+         ]
+      });
+
+
+       $('.members-nav a[data-toggle="tab"]').on('show.bs.tab',  function(event) {
+          $('.members-nav a[data-toggle="tab"]').removeClass('active');
+       });
+
+
 });
 
 

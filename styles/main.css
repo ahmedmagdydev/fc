@@ -10159,6 +10159,7 @@ button.close {
     background: url(../images/icons/left-line.jpg) no-repeat right center;
     padding-right: 55px;
     max-width: 200px;
+    max-width: calc(100% - 180px);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -10940,4 +10941,17 @@ footer .col-2{
 }
 .members-nav .slick-disabled{
     opacity: .1;
+}
+
+@media screen and (max-width: 450px) {
+    .timeline .item .icon{
+            background: none;
+    padding-left: 0;
+    }
+    .timeline .item .data {
+    background: none;
+    padding-right: 0;
+    max-width: 130px;
+    max-width: calc(100% - 132px)
+}
 }

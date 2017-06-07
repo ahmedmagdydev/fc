@@ -9694,7 +9694,7 @@ body,html {
     .jumbotron.big-chart .process-info{
         position: relative;
     }
-    .row, .container.big-footer,.all-events{
+    .row, .container.big-footer,.all-events,.months{
         clear: both;
     }
     .jumbotron.big-chart{
